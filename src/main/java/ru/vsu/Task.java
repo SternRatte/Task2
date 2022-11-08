@@ -1,14 +1,11 @@
 package ru.vsu;
 
-import ru.vsu.calculator.exceptions.*;
 import ru.vsu.calculator.parsing.*;
-import ru.vsu.calculator.tokens.*;
 import ru.vsu.calculator.ConsolePolishNotationCalculatorIdentifierResolver;
 import ru.vsu.calculator.PolishNotationCalculator;
 import ru.vsu.calculator.ToPolishNotationConverter;
 import ru.vsu.calculator.TokenIterable;
 import ru.vsu.calculator.exceptions.PolishNotationCalculatingException;
-import ru.vsu.calculator.parsing.*;
 import ru.vsu.calculator.tokens.Token;
 
 import java.util.*;

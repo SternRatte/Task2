@@ -2,7 +2,6 @@ package ru.vsu.calculator;
 
 import java.util.Stack;
 import ru.vsu.calculator.tokens.ValueToken;
-import ru.vsu.calculator.exceptions.*;
 import ru.vsu.calculator.exceptions.PolishNotationCalculatingException;
 
 public interface IdentifierResolver {

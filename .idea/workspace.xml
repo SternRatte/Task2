@@ -4,37 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="27e42089-5132-4b25-865d-e43e19ebf499" name="Changes" comment="">
+    <list default="true" id="27e42089-5132-4b25-865d-e43e19ebf499" name="Changes" comment="finished">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/vsu/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/vsu/Task.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/vsu/calculator/ConsolePolishNotationCalculatorIdentifierResolver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/vsu/calculator/ConsolePolishNotationCalculatorIdentifierResolver.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/vsu/calculator/IdentifierResolver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/vsu/calculator/IdentifierResolver.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/vsu/calculator/PolishNotationCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/vsu/calculator/PolishNotationCalculator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/vsu/calculator/ToPolishNotationConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/vsu/calculator/ToPolishNotationConverter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/vsu/calculator/TokenIterable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/vsu/calculator/TokenIterable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/vsu/calculator/exceptions/ConvertToPolishNotationException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/vsu/calculator/exceptions/ConvertToPolishNotationException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/vsu/calculator/exceptions/MissedTokenException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/vsu/calculator/exceptions/MissedTokenException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/vsu/calculator/exceptions/NotEnoughArgumentsException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/vsu/calculator/exceptions/NotEnoughArgumentsException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/vsu/calculator/exceptions/NotRecognizedTokenException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/vsu/calculator/exceptions/NotRecognizedTokenException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/vsu/calculator/exceptions/PolishNotationCalculatingException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/vsu/calculator/exceptions/PolishNotationCalculatingException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/vsu/calculator/exceptions/TokenBuilderNotPreparedException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/vsu/calculator/exceptions/TokenBuilderNotPreparedException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/vsu/calculator/exceptions/TokenParsingException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/vsu/calculator/exceptions/TokenParsingException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/vsu/calculator/parsing/CloseBracketTokenBuilderFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/vsu/calculator/parsing/CloseBracketTokenBuilderFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/vsu/calculator/parsing/FunctionParamsSeparatorTokenBuilderFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/vsu/calculator/parsing/FunctionParamsSeparatorTokenBuilderFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/vsu/calculator/parsing/IdentifierTokenBuilderFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/vsu/calculator/parsing/IdentifierTokenBuilderFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/vsu/calculator/parsing/NumberTokenBuilderFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/vsu/calculator/parsing/NumberTokenBuilderFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/vsu/calculator/parsing/OneSymbolBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/vsu/calculator/parsing/OneSymbolBuilder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/vsu/calculator/parsing/OpenBracketTokenBuilderFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/vsu/calculator/parsing/OpenBracketTokenBuilderFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/vsu/calculator/parsing/OperatorTokenBuilderFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/vsu/calculator/parsing/OperatorTokenBuilderFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/vsu/calculator/parsing/TokenBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/vsu/calculator/parsing/TokenBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/vsu/calculator/parsing/TokenBuilderFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/vsu/calculator/parsing/TokenBuilderFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/vsu/calculator/tokens/OperatorAssociativity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/vsu/calculator/tokens/OperatorAssociativity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/vsu/calculator/tokens/OperatorToken.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/vsu/calculator/tokens/OperatorToken.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/vsu/calculator/tokens/Token.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/vsu/calculator/tokens/Token.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/vsu/calculator/tokens/TokenType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/vsu/calculator/tokens/TokenType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/vsu/calculator/tokens/ValueToken.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/vsu/calculator/tokens/ValueToken.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/vsu/NumberTokenBuilderFactoryTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/vsu/NumberTokenBuilderFactoryTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -139,6 +122,14 @@
       <option name="presentableId" value="Default" />
       <updated>1667923095465</updated>
     </task>
+    <task id="LOCAL-00001" summary="finished">
+      <created>1667934085134</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1667934085134</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -151,5 +142,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="finished" />
+    <option name="LAST_COMMIT_MESSAGE" value="finished" />
   </component>
 </project>

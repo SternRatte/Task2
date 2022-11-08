@@ -1,9 +1,7 @@
 package ru.vsu.calculator;
 
 import ru.vsu.calculator.parsing.TokenBuilderFactory;
-import ru.vsu.calculator.tokens.*;
 import java.util.*;
-import ru.vsu.calculator.exceptions.*;
 import ru.vsu.calculator.exceptions.NotEnoughArgumentsException;
 import ru.vsu.calculator.exceptions.PolishNotationCalculatingException;
 import ru.vsu.calculator.tokens.Token;

@@ -1,8 +1,6 @@
 package ru.vsu.calculator;
 
 import java.util.*;
-import ru.vsu.calculator.exceptions.*;
-import ru.vsu.calculator.tokens.*;
 import ru.vsu.calculator.exceptions.ConvertToPolishNotationException;
 import ru.vsu.calculator.exceptions.MissedTokenException;
 import ru.vsu.calculator.exceptions.NotRecognizedTokenException;
