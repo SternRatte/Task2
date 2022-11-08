@@ -9,7 +9,7 @@
     <version>1.0-SNAPSHOT</version>
 
     <name>JTask2</name>
-    <url>https://github.com/SternRatte/JTask2.git</url>
+    <url>https://github.com/SternRatte/Task2</url>
 
     <dependencies>
         <dependency>
