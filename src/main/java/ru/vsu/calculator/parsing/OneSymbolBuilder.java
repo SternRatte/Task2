@@ -1,4 +1,4 @@
-package calculator.parsing;
+package ru.vsu.calculator.parsing;
 
 public abstract class OneSymbolBuilder extends TokenBuilder {
     private final char _symbol;

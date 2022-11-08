@@ -1,8 +1,11 @@
-package calculator.parsing;
+package ru.vsu.calculator.parsing;
 
 import java.util.*;
 import java.util.function.*;
-import calculator.tokens.*;
+import ru.vsu.calculator.tokens.*;
+import ru.vsu.calculator.tokens.OperatorAssociativity;
+import ru.vsu.calculator.tokens.OperatorToken;
+import ru.vsu.calculator.tokens.Token;
 
 public class OperatorTokenBuilderFactory implements TokenBuilderFactory {
     private final static Map<Character, OperatorToken> OperatorsList;

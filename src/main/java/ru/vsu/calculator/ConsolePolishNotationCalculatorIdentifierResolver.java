@@ -1,9 +1,13 @@
-package calculator;
+package ru.vsu.calculator;
 
-import calculator.parsing.TokenBuilderFactory;
-import calculator.tokens.*;
+import ru.vsu.calculator.parsing.TokenBuilderFactory;
+import ru.vsu.calculator.tokens.*;
 import java.util.*;
-import calculator.exceptions.*;
+import ru.vsu.calculator.exceptions.*;
+import ru.vsu.calculator.exceptions.NotEnoughArgumentsException;
+import ru.vsu.calculator.exceptions.PolishNotationCalculatingException;
+import ru.vsu.calculator.tokens.Token;
+import ru.vsu.calculator.tokens.ValueToken;
 
 public class ConsolePolishNotationCalculatorIdentifierResolver implements IdentifierResolver {
     private final Map<String, Double> _localVariables;

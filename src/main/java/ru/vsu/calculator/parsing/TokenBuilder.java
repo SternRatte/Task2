@@ -1,7 +1,7 @@
-package calculator.parsing;
+package ru.vsu.calculator.parsing;
 
-import calculator.exceptions.TokenBuilderNotPreparedException;
-import calculator.tokens.Token;
+import ru.vsu.calculator.exceptions.TokenBuilderNotPreparedException;
+import ru.vsu.calculator.tokens.Token;
 
 
 public abstract class TokenBuilder implements Comparable<TokenBuilder> {

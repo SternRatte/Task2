@@ -1,8 +1,9 @@
-package calculator;
+package ru.vsu.calculator;
 
 import java.util.Stack;
-import calculator.tokens.ValueToken;
-import calculator.exceptions.*;
+import ru.vsu.calculator.tokens.ValueToken;
+import ru.vsu.calculator.exceptions.*;
+import ru.vsu.calculator.exceptions.PolishNotationCalculatingException;
 
 public interface IdentifierResolver {
     double resolveVariable(ValueToken<String> token);

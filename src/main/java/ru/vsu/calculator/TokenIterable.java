@@ -1,9 +1,12 @@
-package calculator;
+package ru.vsu.calculator;
 
-import calculator.exceptions.TokenBuilderNotPreparedException;
-import calculator.tokens.Token;
+import ru.vsu.calculator.exceptions.TokenBuilderNotPreparedException;
+import ru.vsu.calculator.tokens.Token;
 import java.util.*;
-import calculator.parsing.*;
+import ru.vsu.calculator.parsing.*;
+import ru.vsu.calculator.parsing.TokenBuilder;
+import ru.vsu.calculator.parsing.TokenBuilderFactory;
+
 public class TokenIterable implements Iterable<Token> {
     private final String _expression;
 

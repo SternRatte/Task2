@@ -1,6 +1,9 @@
-package calculator.parsing;
+package ru.vsu.calculator.parsing;
 
-import calculator.tokens.*;
+import ru.vsu.calculator.tokens.*;
+import ru.vsu.calculator.tokens.Token;
+import ru.vsu.calculator.tokens.TokenType;
+import ru.vsu.calculator.tokens.ValueToken;
 
 public class NumberTokenBuilderFactory implements TokenBuilderFactory {
     private final char _decimalSeparator;

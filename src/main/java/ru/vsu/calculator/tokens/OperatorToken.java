@@ -1,4 +1,4 @@
-package calculator.tokens;
+package ru.vsu.calculator.tokens;
 
 import java.util.List;
 import java.util.function.Function;

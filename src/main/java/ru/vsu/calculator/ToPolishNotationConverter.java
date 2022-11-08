@@ -1,8 +1,15 @@
-package calculator;
+package ru.vsu.calculator;
 
 import java.util.*;
-import calculator.exceptions.*;
-import calculator.tokens.*;
+import ru.vsu.calculator.exceptions.*;
+import ru.vsu.calculator.tokens.*;
+import ru.vsu.calculator.exceptions.ConvertToPolishNotationException;
+import ru.vsu.calculator.exceptions.MissedTokenException;
+import ru.vsu.calculator.exceptions.NotRecognizedTokenException;
+import ru.vsu.calculator.tokens.OperatorAssociativity;
+import ru.vsu.calculator.tokens.OperatorToken;
+import ru.vsu.calculator.tokens.Token;
+import ru.vsu.calculator.tokens.TokenType;
 
 public final class ToPolishNotationConverter {
     private ToPolishNotationConverter() {

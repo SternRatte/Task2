@@ -4,14 +4,57 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="27e42089-5132-4b25-865d-e43e19ebf499" name="Changes" comment="" />
+    <list default="true" id="27e42089-5132-4b25-865d-e43e19ebf499" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/vsu/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/vsu/Task.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/vsu/calculator/ConsolePolishNotationCalculatorIdentifierResolver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/vsu/calculator/ConsolePolishNotationCalculatorIdentifierResolver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/vsu/calculator/IdentifierResolver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/vsu/calculator/IdentifierResolver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/vsu/calculator/PolishNotationCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/vsu/calculator/PolishNotationCalculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/vsu/calculator/ToPolishNotationConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/vsu/calculator/ToPolishNotationConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/vsu/calculator/TokenIterable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/vsu/calculator/TokenIterable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/vsu/calculator/exceptions/ConvertToPolishNotationException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/vsu/calculator/exceptions/ConvertToPolishNotationException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/vsu/calculator/exceptions/MissedTokenException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/vsu/calculator/exceptions/MissedTokenException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/vsu/calculator/exceptions/NotEnoughArgumentsException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/vsu/calculator/exceptions/NotEnoughArgumentsException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/vsu/calculator/exceptions/NotRecognizedTokenException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/vsu/calculator/exceptions/NotRecognizedTokenException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/vsu/calculator/exceptions/PolishNotationCalculatingException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/vsu/calculator/exceptions/PolishNotationCalculatingException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/vsu/calculator/exceptions/TokenBuilderNotPreparedException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/vsu/calculator/exceptions/TokenBuilderNotPreparedException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/vsu/calculator/exceptions/TokenParsingException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/vsu/calculator/exceptions/TokenParsingException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/vsu/calculator/parsing/CloseBracketTokenBuilderFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/vsu/calculator/parsing/CloseBracketTokenBuilderFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/vsu/calculator/parsing/FunctionParamsSeparatorTokenBuilderFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/vsu/calculator/parsing/FunctionParamsSeparatorTokenBuilderFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/vsu/calculator/parsing/IdentifierTokenBuilderFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/vsu/calculator/parsing/IdentifierTokenBuilderFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/vsu/calculator/parsing/NumberTokenBuilderFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/vsu/calculator/parsing/NumberTokenBuilderFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/vsu/calculator/parsing/OneSymbolBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/vsu/calculator/parsing/OneSymbolBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/vsu/calculator/parsing/OpenBracketTokenBuilderFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/vsu/calculator/parsing/OpenBracketTokenBuilderFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/vsu/calculator/parsing/OperatorTokenBuilderFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/vsu/calculator/parsing/OperatorTokenBuilderFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/vsu/calculator/parsing/TokenBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/vsu/calculator/parsing/TokenBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/vsu/calculator/parsing/TokenBuilderFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/vsu/calculator/parsing/TokenBuilderFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/vsu/calculator/tokens/OperatorAssociativity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/vsu/calculator/tokens/OperatorAssociativity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/vsu/calculator/tokens/OperatorToken.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/vsu/calculator/tokens/OperatorToken.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/vsu/calculator/tokens/Token.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/vsu/calculator/tokens/Token.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/vsu/calculator/tokens/TokenType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/vsu/calculator/tokens/TokenType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/vsu/calculator/tokens/ValueToken.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/vsu/calculator/tokens/ValueToken.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ru/vsu/NumberTokenBuilderFactoryTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/vsu/NumberTokenBuilderFactoryTests.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2HGt99jwZ6wLfbNhmKORcKBT5mu" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -22,9 +65,71 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
   }
 }]]></component>
+  <component name="RunManager" selected="JUnit.NumberTokenBuilderFactoryTests">
+    <configuration name="Task" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.vsu.calculator.Task" />
+      <module name="JTask2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ru.vsu.Task" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.vsu.Task" />
+      <module name="JTask2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.vsu.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NumberTokenBuilderFactoryTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JTask2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.vsu.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.vsu" />
+      <option name="MAIN_CLASS_NAME" value="ru.vsu.NumberTokenBuilderFactoryTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NumberTokenBuilderFactoryTests.successfulNumberBuildTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JTask2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.vsu.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.vsu" />
+      <option name="MAIN_CLASS_NAME" value="ru.vsu.NumberTokenBuilderFactoryTests" />
+      <option name="METHOD_NAME" value="successfulNumberBuildTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.NumberTokenBuilderFactoryTests" />
+        <item itemvalue="Application.ru.vsu.Task" />
+        <item itemvalue="JUnit.NumberTokenBuilderFactoryTests.successfulNumberBuildTest" />
+        <item itemvalue="Application.Task" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">

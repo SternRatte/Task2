@@ -1,4 +1,4 @@
-package calculator.tokens;
+package ru.vsu.calculator.tokens;
 
 public class ValueToken <T> extends Token {
     private final T _value;

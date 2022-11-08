@@ -1,4 +1,4 @@
-package calculator.exceptions;
+package ru.vsu.calculator.exceptions;
 
 public class PolishNotationCalculatingException extends Exception {
     public PolishNotationCalculatingException() {
